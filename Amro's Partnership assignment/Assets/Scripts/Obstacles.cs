@@ -13,6 +13,6 @@ public class Obstacles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-0.001f, 0, 0);
+        transform.Translate(-0.004f, 0, 0);
     }
 }

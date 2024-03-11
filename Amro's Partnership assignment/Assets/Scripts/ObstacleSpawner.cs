@@ -21,7 +21,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     IEnumerator SpawnObstacle()
     {
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(4f);
         int RandomNumber = Random.Range(-3,1);
         Debug.Log(RandomNumber);
         Vector2 SpawnLocation = new Vector2(0, RandomNumber);
